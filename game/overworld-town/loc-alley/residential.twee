@@ -86,11 +86,11 @@
 
 <<set $outside to 1>><<set $location to "town">><<effects>>
 <<if $weather is "rain">>
-	당신은 비와 싸우며 한밤에 야옹하고 울고 있다.
+	당신은 비와 싸우며 한밤중에 야옹하고 울고 있다.
 <<elseif $weather is "snow">>
-	당신은 눈 오는 밤에 야옹하고 울고 있다.
+	당신은 눈 오는 밤중에 야옹하고 울고 있다.
 <<else>>
-	당신은 한밤에 야옹하고 울고 있다.
+	당신은 한밤중에 야옹하고 울고 있다.
 <</if>>
 <br><br>
 <<if $rng gte 76>>
